@@ -2,59 +2,90 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-class Category(models.Model):
+class CustomManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(deleted=False)
+
+
+class BaseModel(models.Model):
+    deleted = models.BooleanField(default=False, null=True, blank=True, editable=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    objects = CustomManager()
+
+    class Meta:
+        abstract = True
+
+
+class Category(BaseModel):
     title = models.CharField(max_length=50)
 
     def __str__(self):
         return self.title
 
 
-class Product(models.Model):
+class Product(BaseModel):
     title = models.CharField(max_length=50)
-    description = models.TextField()
+    description = models.TextField(null=True, blank=True)
     price = models.DecimalField(max_digits=20, decimal_places=2)
     quantity = models.PositiveIntegerField()
-    image = models.ImageField()
+    image = models.ImageField(blank=True, null=True)
     available = models.BooleanField(default=True)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.title
+        return f"{self.title} - {self.category}"
 
 
-class Cart(models.Model):
+class Cart(BaseModel):
     total_price = models.DecimalField(max_digits=20, decimal_places=2)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return f"{self.total_price} {self.created_at}"
 
-class CartItem(models.Model):
+
+class CartItem(BaseModel):
     price = models.DecimalField(max_digits=20, decimal_places=2)
     quantity = models.PositiveIntegerField()
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     cart = models.ForeignKey(Cart, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return f"{self.product} {str(self.price)}"
 
-class Order(models.Model):
+
+class Order(BaseModel):
     total_price = models.DecimalField(max_digits=20, decimal_places=2)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return f"{self.user} {self.created_at}"
 
-class OrderItem(models.Model):
+
+class OrderItem(BaseModel):
     price = models.DecimalField(max_digits=20, decimal_places=2)
     quantity = models.PositiveIntegerField()
     successful = models.BooleanField(default=False)
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.PROTECT)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return f"{self.product} {self.price}"
 
-class Payment(models.Model):
+
+class Payment(BaseModel):
     amount = models.DecimalField(max_digits=20, decimal_places=2)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    order = models.ForeignKey(Order, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.PROTECT)
+    order = models.ForeignKey(Order, on_delete=models.PROTECT)
     successful = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.amount} {self.user} {self.order}"
