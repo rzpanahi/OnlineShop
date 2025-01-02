@@ -8,7 +8,7 @@ class CustomManager(models.Manager):
 
 
 class BaseModel(models.Model):
-    deleted = models.BooleanField(default=False, null=True, blank=True, editable=True)
+    deleted = models.BooleanField(default=False, editable=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -16,6 +16,10 @@ class BaseModel(models.Model):
 
     class Meta:
         abstract = True
+
+    def delete(self, *args, **kwargs):
+        self.deleted = True
+        self.save()
 
 
 class Category(BaseModel):
