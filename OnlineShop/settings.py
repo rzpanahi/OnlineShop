@@ -1,22 +1,17 @@
 from pathlib import Path
+from dotenv import load_dotenv
+from os import getenv
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+# import environment variables
+load_dotenv()
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+SECRET_KEY = getenv("SECRET_KEY", "")
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-o_+6%*eo)@k9-x7)=2n3%43o8d@7hh6)!&s6d2s@=c^dy2c5kl'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = getenv("DEBUG", True)
 
 ALLOWED_HOSTS = []
-
-
-# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -25,7 +20,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'shop.apps.ShopConfig'
+    'shop',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +53,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'OnlineShop.wsgi.application'
-
 
 DATABASES = {
     'default': {
@@ -92,3 +87,5 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = "accounts.User"
