@@ -53,9 +53,9 @@ class OrderAdmin(admin.ModelAdmin):
 
 
 class OrderItemAdmin(admin.ModelAdmin):
-    list_display = ["user", "price", "quantity", "successful", "order",]
-    list_filter = ["user", "order"]
-    search_fields = ["user", "order"]
+    list_display = ["price", "quantity", "successful", "order",]
+    list_filter = ["order"]
+    search_fields = ["order"]
 
     def delete_queryset(self, request, queryset):
         for orderItem in queryset:

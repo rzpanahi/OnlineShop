@@ -77,7 +77,7 @@ class OrderItem(BaseModel):
     quantity = models.PositiveIntegerField()
     successful = models.BooleanField(default=False)
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.PROTECT)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
