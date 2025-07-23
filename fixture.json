@@ -1,0 +1,2842 @@
+[
+    {
+        "model": "shop.category",
+        "pk": 1,
+        "fields": {
+            "title": "teach",
+            "created_at": "2025-01-15T04:21:41.769270",
+            "updated_at": "2025-03-22T00:16:58.865950",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 2,
+        "fields": {
+            "title": "generation",
+            "created_at": "2025-06-20T09:10:54.690075",
+            "updated_at": "2025-01-15T17:00:46.662104",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 3,
+        "fields": {
+            "title": "young",
+            "created_at": "2025-02-09T20:17:21.360410",
+            "updated_at": "2025-05-07T22:27:42.019997",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 4,
+        "fields": {
+            "title": "policy",
+            "created_at": "2025-05-06T08:47:44.200272",
+            "updated_at": "2025-02-27T03:02:21.262557",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 5,
+        "fields": {
+            "title": "actually",
+            "created_at": "2025-02-26T07:47:39.245162",
+            "updated_at": "2025-05-17T10:19:16.176150",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 6,
+        "fields": {
+            "title": "could",
+            "created_at": "2025-01-21T20:33:44.865959",
+            "updated_at": "2025-06-11T11:44:08.084045",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 7,
+        "fields": {
+            "title": "push",
+            "created_at": "2025-05-17T21:07:40.032367",
+            "updated_at": "2025-04-30T05:25:26.239356",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 8,
+        "fields": {
+            "title": "could",
+            "created_at": "2025-04-30T16:38:49.220805",
+            "updated_at": "2025-06-08T04:36:10.477126",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 9,
+        "fields": {
+            "title": "change",
+            "created_at": "2025-03-31T00:11:45.253346",
+            "updated_at": "2025-01-20T16:57:36.080873",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 10,
+        "fields": {
+            "title": "for",
+            "created_at": "2025-01-20T23:34:40.291530",
+            "updated_at": "2025-07-17T10:29:45.038334",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 1,
+        "fields": {
+            "username": "petercook",
+            "email": "jessica48@example.net",
+            "mobile": "(749)980-4448",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-01-11T02:52:20.741595",
+            "updated_at": "2025-04-25T21:04:43.047952",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 2,
+        "fields": {
+            "username": "ibarramichael",
+            "email": "lauraphillips@example.com",
+            "mobile": "9383895010",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-02-12T08:12:16.546129",
+            "updated_at": "2025-07-17T04:27:17.573260",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 3,
+        "fields": {
+            "username": "rosscaroline",
+            "email": "garciatimothy@example.com",
+            "mobile": "(353)325-2220",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-03-11T20:02:26.014143",
+            "updated_at": "2025-02-13T09:08:14.824733",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 4,
+        "fields": {
+            "username": "devon82",
+            "email": "campbellnicholas@example.net",
+            "mobile": "3392053743",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-02-11T13:06:59.604891",
+            "updated_at": "2025-04-06T02:25:29.692002",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 5,
+        "fields": {
+            "username": "bruce17",
+            "email": "james15@example.net",
+            "mobile": "838-395-6383",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-05-30T04:58:55.336353",
+            "updated_at": "2025-02-07T23:08:32.823918",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 6,
+        "fields": {
+            "username": "matthew32",
+            "email": "bryan88@example.net",
+            "mobile": "(296)352-5268",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-02-01T19:17:00.496395",
+            "updated_at": "2025-01-24T12:47:04.796562",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 7,
+        "fields": {
+            "username": "jenniferreid",
+            "email": "murrayedgar@example.net",
+            "mobile": "(431)557-2382",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-04-25T19:14:57.759614",
+            "updated_at": "2025-05-06T00:23:33.941248",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 8,
+        "fields": {
+            "username": "fmurphy",
+            "email": "mariojones@example.net",
+            "mobile": "4555479868",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-06-27T15:17:40.885108",
+            "updated_at": "2025-07-20T04:51:37.181149",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 9,
+        "fields": {
+            "username": "srodriguez",
+            "email": "conniebryant@example.org",
+            "mobile": "391-374-3780",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-02-11T05:48:02.231087",
+            "updated_at": "2025-05-13T01:19:03.638312",
+            "deleted": false
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 10,
+        "fields": {
+            "username": "christopherhoward",
+            "email": "astephens@example.com",
+            "mobile": "238-988-0573",
+            "password": "pbkdf2_sha256$260000$fakepassword",
+            "created_at": "2025-02-21T02:50:07.197787",
+            "updated_at": "2025-04-22T15:25:20.625914",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "title": "Able",
+            "description": "Avoid fast hard manager standard.",
+            "price": "939.35",
+            "quantity": 36,
+            "image": null,
+            "available": true,
+            "category": 8,
+            "created_at": "2025-01-08T14:01:18.207136",
+            "updated_at": "2025-06-09T02:45:10.974040",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 2,
+        "fields": {
+            "title": "Trouble",
+            "description": "Establish after health nothing I money explain.",
+            "price": "723.67",
+            "quantity": 46,
+            "image": null,
+            "available": true,
+            "category": 2,
+            "created_at": "2025-01-24T10:22:53.226961",
+            "updated_at": "2025-02-16T18:52:52.499495",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 3,
+        "fields": {
+            "title": "Than",
+            "description": "Their agency worry which.",
+            "price": "505.38",
+            "quantity": 20,
+            "image": null,
+            "available": true,
+            "category": 6,
+            "created_at": "2025-02-23T05:55:12.538787",
+            "updated_at": "2025-03-07T22:14:04.980191",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 4,
+        "fields": {
+            "title": "Know",
+            "description": "Herself form everyone only data.",
+            "price": "948.57",
+            "quantity": 6,
+            "image": null,
+            "available": true,
+            "category": 10,
+            "created_at": "2025-06-13T15:22:57.379404",
+            "updated_at": "2025-02-12T21:43:31.172305",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 5,
+        "fields": {
+            "title": "Also",
+            "description": "Artist billion around person full outside.",
+            "price": "194.68",
+            "quantity": 29,
+            "image": null,
+            "available": true,
+            "category": 3,
+            "created_at": "2025-01-28T16:50:52.820484",
+            "updated_at": "2025-03-19T06:36:55.698215",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 6,
+        "fields": {
+            "title": "Serve",
+            "description": "Pressure traditional professional establish.",
+            "price": "966.41",
+            "quantity": 34,
+            "image": null,
+            "available": true,
+            "category": 3,
+            "created_at": "2025-04-03T09:05:28.996712",
+            "updated_at": "2025-02-08T21:41:39.718467",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 7,
+        "fields": {
+            "title": "Walk",
+            "description": "Let huge raise consider situation build indeed near.",
+            "price": "602.12",
+            "quantity": 37,
+            "image": null,
+            "available": true,
+            "category": 1,
+            "created_at": "2025-04-08T08:16:10.189935",
+            "updated_at": "2025-05-27T19:09:38.633791",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 8,
+        "fields": {
+            "title": "Into",
+            "description": "Audience picture positive about key carry contain.",
+            "price": "807.88",
+            "quantity": 44,
+            "image": null,
+            "available": true,
+            "category": 7,
+            "created_at": "2025-03-24T03:16:12.449757",
+            "updated_at": "2025-04-02T14:41:06.679210",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 9,
+        "fields": {
+            "title": "Paper",
+            "description": "However structure radio child serious include.",
+            "price": "276.49",
+            "quantity": 41,
+            "image": null,
+            "available": true,
+            "category": 9,
+            "created_at": "2025-05-19T23:02:22.515111",
+            "updated_at": "2025-02-24T03:10:39.785576",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 10,
+        "fields": {
+            "title": "Offer",
+            "description": "No cover receive research never star.",
+            "price": "487.79",
+            "quantity": 10,
+            "image": null,
+            "available": true,
+            "category": 5,
+            "created_at": "2025-06-03T09:50:37.505271",
+            "updated_at": "2025-05-16T01:10:29.709252",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 11,
+        "fields": {
+            "title": "Phone",
+            "description": "World while military news.",
+            "price": "772.73",
+            "quantity": 44,
+            "image": null,
+            "available": true,
+            "category": 7,
+            "created_at": "2025-03-15T18:01:12.949826",
+            "updated_at": "2025-01-31T07:13:52.091165",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 12,
+        "fields": {
+            "title": "Investment",
+            "description": "Include fund type it peace always part.",
+            "price": "337.17",
+            "quantity": 37,
+            "image": null,
+            "available": true,
+            "category": 3,
+            "created_at": "2025-03-11T01:33:43.333771",
+            "updated_at": "2025-03-12T16:52:14.713328",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 13,
+        "fields": {
+            "title": "Nation",
+            "description": "Lay street public provide onto less team.",
+            "price": "188.29",
+            "quantity": 4,
+            "image": null,
+            "available": true,
+            "category": 7,
+            "created_at": "2025-04-16T04:56:20.193007",
+            "updated_at": "2025-07-07T22:01:44.360668",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 14,
+        "fields": {
+            "title": "Begin",
+            "description": "Even seem not opportunity guy notice.",
+            "price": "289.93",
+            "quantity": 3,
+            "image": null,
+            "available": true,
+            "category": 3,
+            "created_at": "2025-02-10T13:49:48.349690",
+            "updated_at": "2025-01-05T00:53:53.752299",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 15,
+        "fields": {
+            "title": "Mind",
+            "description": "Happen federal thing discover community foreign whole.",
+            "price": "875.20",
+            "quantity": 16,
+            "image": null,
+            "available": true,
+            "category": 5,
+            "created_at": "2025-06-13T09:18:56.339028",
+            "updated_at": "2025-07-15T20:51:30.232342",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 16,
+        "fields": {
+            "title": "Skill",
+            "description": "Expert mother travel morning issue market security.",
+            "price": "722.27",
+            "quantity": 16,
+            "image": null,
+            "available": true,
+            "category": 2,
+            "created_at": "2025-05-29T16:04:21.150856",
+            "updated_at": "2025-04-15T17:58:00.857292",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 17,
+        "fields": {
+            "title": "Young",
+            "description": "Economic yourself already instead.",
+            "price": "979.04",
+            "quantity": 23,
+            "image": null,
+            "available": true,
+            "category": 3,
+            "created_at": "2025-01-29T07:51:59.663525",
+            "updated_at": "2025-06-21T02:26:28.385164",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 18,
+        "fields": {
+            "title": "Onto",
+            "description": "Believe check end sure member.",
+            "price": "543.02",
+            "quantity": 19,
+            "image": null,
+            "available": true,
+            "category": 9,
+            "created_at": "2025-07-03T07:20:40.708418",
+            "updated_at": "2025-07-13T07:21:50.687126",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 19,
+        "fields": {
+            "title": "Brother",
+            "description": "Rest instead food.",
+            "price": "616.41",
+            "quantity": 19,
+            "image": null,
+            "available": true,
+            "category": 1,
+            "created_at": "2025-07-16T14:19:18.245869",
+            "updated_at": "2025-06-14T02:18:41.296345",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 20,
+        "fields": {
+            "title": "Others",
+            "description": "Get matter walk.",
+            "price": "55.96",
+            "quantity": 6,
+            "image": null,
+            "available": true,
+            "category": 5,
+            "created_at": "2025-03-04T06:19:09.960092",
+            "updated_at": "2025-02-14T06:11:35.474771",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 21,
+        "fields": {
+            "title": "Including",
+            "description": "Feeling more hear move realize clear century.",
+            "price": "838.25",
+            "quantity": 7,
+            "image": null,
+            "available": true,
+            "category": 8,
+            "created_at": "2025-06-01T08:57:00.076559",
+            "updated_at": "2025-04-09T11:15:22.076789",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 22,
+        "fields": {
+            "title": "Night",
+            "description": "Answer drive federal rate military join.",
+            "price": "863.22",
+            "quantity": 3,
+            "image": null,
+            "available": true,
+            "category": 7,
+            "created_at": "2025-04-29T13:35:27.838182",
+            "updated_at": "2025-04-24T19:18:24.325671",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 23,
+        "fields": {
+            "title": "Successful",
+            "description": "Wish teacher culture.",
+            "price": "598.16",
+            "quantity": 3,
+            "image": null,
+            "available": true,
+            "category": 8,
+            "created_at": "2025-04-27T13:24:00.152246",
+            "updated_at": "2025-05-20T19:55:29.243761",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 24,
+        "fields": {
+            "title": "Worry",
+            "description": "Design but standard.",
+            "price": "912.05",
+            "quantity": 8,
+            "image": null,
+            "available": true,
+            "category": 10,
+            "created_at": "2025-05-19T22:06:55.202798",
+            "updated_at": "2025-06-26T05:09:59.438797",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 25,
+        "fields": {
+            "title": "Source",
+            "description": "Wear wish wall also call weight.",
+            "price": "590.32",
+            "quantity": 41,
+            "image": null,
+            "available": true,
+            "category": 7,
+            "created_at": "2025-05-27T12:37:52.364907",
+            "updated_at": "2025-06-02T01:28:58.575197",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 26,
+        "fields": {
+            "title": "But",
+            "description": "To yeah amount soon nature impact community.",
+            "price": "561.34",
+            "quantity": 40,
+            "image": null,
+            "available": true,
+            "category": 10,
+            "created_at": "2025-03-07T03:27:14.310265",
+            "updated_at": "2025-03-24T11:51:17.929016",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 27,
+        "fields": {
+            "title": "Large",
+            "description": "But happy black quality why break ever.",
+            "price": "869.79",
+            "quantity": 18,
+            "image": null,
+            "available": true,
+            "category": 6,
+            "created_at": "2025-01-05T11:42:06.722680",
+            "updated_at": "2025-06-06T16:51:14.964665",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 28,
+        "fields": {
+            "title": "Throw",
+            "description": "And beautiful Republican should herself.",
+            "price": "683.56",
+            "quantity": 26,
+            "image": null,
+            "available": true,
+            "category": 8,
+            "created_at": "2025-04-14T12:05:53.139419",
+            "updated_at": "2025-02-16T06:19:05.387413",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 29,
+        "fields": {
+            "title": "Trouble",
+            "description": "Determine pull yourself.",
+            "price": "203.70",
+            "quantity": 4,
+            "image": null,
+            "available": true,
+            "category": 9,
+            "created_at": "2025-04-07T07:05:15.221320",
+            "updated_at": "2025-06-13T08:44:21.667498",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 30,
+        "fields": {
+            "title": "Seek",
+            "description": "Sort through so sense response.",
+            "price": "45.99",
+            "quantity": 26,
+            "image": null,
+            "available": true,
+            "category": 4,
+            "created_at": "2025-06-12T13:22:17.539701",
+            "updated_at": "2025-07-03T00:17:58.820542",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 31,
+        "fields": {
+            "title": "Me",
+            "description": "Center mouth government tax.",
+            "price": "81.38",
+            "quantity": 35,
+            "image": null,
+            "available": true,
+            "category": 8,
+            "created_at": "2025-04-07T09:20:35.753212",
+            "updated_at": "2025-05-05T13:33:21.774070",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 32,
+        "fields": {
+            "title": "Only",
+            "description": "Reveal response age draw sing so goal.",
+            "price": "339.33",
+            "quantity": 15,
+            "image": null,
+            "available": true,
+            "category": 1,
+            "created_at": "2025-04-23T04:21:32.198497",
+            "updated_at": "2025-01-09T00:30:14.804073",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 33,
+        "fields": {
+            "title": "Price",
+            "description": "Arm democratic suggest more body inside from behind.",
+            "price": "217.39",
+            "quantity": 4,
+            "image": null,
+            "available": true,
+            "category": 8,
+            "created_at": "2025-02-06T03:30:30.834055",
+            "updated_at": "2025-06-17T07:33:30.316220",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 34,
+        "fields": {
+            "title": "Animal",
+            "description": "Measure anyone provide sister culture.",
+            "price": "220.78",
+            "quantity": 37,
+            "image": null,
+            "available": true,
+            "category": 9,
+            "created_at": "2025-02-16T07:14:09.796012",
+            "updated_at": "2025-04-14T18:53:16.596471",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 35,
+        "fields": {
+            "title": "Billion",
+            "description": "Trouble range part agree.",
+            "price": "58.80",
+            "quantity": 37,
+            "image": null,
+            "available": true,
+            "category": 9,
+            "created_at": "2025-06-06T02:27:08.302327",
+            "updated_at": "2025-07-14T20:50:12.518365",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 36,
+        "fields": {
+            "title": "Window",
+            "description": "Simple establish choose away.",
+            "price": "65.73",
+            "quantity": 23,
+            "image": null,
+            "available": true,
+            "category": 4,
+            "created_at": "2025-01-27T12:31:56.817667",
+            "updated_at": "2025-01-23T07:15:29.278870",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 37,
+        "fields": {
+            "title": "Fall",
+            "description": "Effect plant radio need since reflect account.",
+            "price": "886.93",
+            "quantity": 22,
+            "image": null,
+            "available": true,
+            "category": 5,
+            "created_at": "2025-06-05T04:59:18.571084",
+            "updated_at": "2025-04-21T09:06:58.806383",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 38,
+        "fields": {
+            "title": "Thank",
+            "description": "Those parent number its look news.",
+            "price": "507.97",
+            "quantity": 22,
+            "image": null,
+            "available": true,
+            "category": 4,
+            "created_at": "2025-07-19T18:06:58.119186",
+            "updated_at": "2025-05-12T20:38:44.218262",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 39,
+        "fields": {
+            "title": "Ask",
+            "description": "Bar expert trial understand see.",
+            "price": "612.59",
+            "quantity": 41,
+            "image": null,
+            "available": true,
+            "category": 10,
+            "created_at": "2025-02-21T07:40:37.257581",
+            "updated_at": "2025-05-31T00:45:45.723400",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 40,
+        "fields": {
+            "title": "Skill",
+            "description": "Commercial method job base above camera property let.",
+            "price": "124.81",
+            "quantity": 5,
+            "image": null,
+            "available": true,
+            "category": 2,
+            "created_at": "2025-02-10T08:50:12.104954",
+            "updated_at": "2025-04-21T12:45:41.438929",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 1,
+        "fields": {
+            "price": "28.73",
+            "quantity": 2,
+            "product": 9,
+            "cart": 1,
+            "created_at": "2025-02-20T08:37:50.379163",
+            "updated_at": "2025-05-20T02:01:58.821830",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 2,
+        "fields": {
+            "price": "295.40",
+            "quantity": 2,
+            "product": 26,
+            "cart": 1,
+            "created_at": "2025-05-20T11:25:11.804990",
+            "updated_at": "2025-06-20T21:05:35.204530",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 3,
+        "fields": {
+            "price": "26.16",
+            "quantity": 1,
+            "product": 1,
+            "cart": 1,
+            "created_at": "2025-05-12T20:13:29.099069",
+            "updated_at": "2025-06-10T12:10:06.564314",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 4,
+        "fields": {
+            "price": "256.91",
+            "quantity": 1,
+            "product": 32,
+            "cart": 1,
+            "created_at": "2025-04-06T06:13:41.273295",
+            "updated_at": "2025-01-25T11:37:22.188288",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 5,
+        "fields": {
+            "price": "222.64",
+            "quantity": 1,
+            "product": 30,
+            "cart": 1,
+            "created_at": "2025-02-12T21:15:44.948037",
+            "updated_at": "2025-02-09T12:25:28.552116",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 6,
+        "fields": {
+            "price": "274.86",
+            "quantity": 2,
+            "product": 28,
+            "cart": 1,
+            "created_at": "2025-04-02T02:14:07.964933",
+            "updated_at": "2025-06-19T09:02:32.760260",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 1,
+        "fields": {
+            "total_price": "1703.69",
+            "user": 5,
+            "created_at": "2025-05-27T11:07:26.989108",
+            "updated_at": "2025-03-22T18:11:08.886163",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 7,
+        "fields": {
+            "price": "94.18",
+            "quantity": 2,
+            "product": 16,
+            "cart": 2,
+            "created_at": "2025-04-07T21:58:23.154459",
+            "updated_at": "2025-01-17T18:43:13.192125",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 8,
+        "fields": {
+            "price": "198.93",
+            "quantity": 3,
+            "product": 35,
+            "cart": 2,
+            "created_at": "2025-04-06T21:54:22.047941",
+            "updated_at": "2025-06-01T04:23:23.623859",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 9,
+        "fields": {
+            "price": "265.78",
+            "quantity": 1,
+            "product": 40,
+            "cart": 2,
+            "created_at": "2025-01-22T03:53:24.777417",
+            "updated_at": "2025-05-24T13:09:47.027206",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 10,
+        "fields": {
+            "price": "161.73",
+            "quantity": 3,
+            "product": 8,
+            "cart": 2,
+            "created_at": "2025-06-05T19:13:28.659399",
+            "updated_at": "2025-05-26T19:01:40.219313",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 11,
+        "fields": {
+            "price": "69.70",
+            "quantity": 1,
+            "product": 11,
+            "cart": 2,
+            "created_at": "2025-02-18T06:10:34.970420",
+            "updated_at": "2025-03-25T11:14:32.931014",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 12,
+        "fields": {
+            "price": "34.76",
+            "quantity": 2,
+            "product": 7,
+            "cart": 2,
+            "created_at": "2025-04-08T13:56:37.362001",
+            "updated_at": "2025-07-16T20:20:49.841250",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 2,
+        "fields": {
+            "total_price": "1675.34",
+            "user": 1,
+            "created_at": "2025-01-15T05:20:03.486353",
+            "updated_at": "2025-05-21T14:50:01.317389",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 13,
+        "fields": {
+            "price": "208.76",
+            "quantity": 2,
+            "product": 19,
+            "cart": 3,
+            "created_at": "2025-01-24T10:52:50.521841",
+            "updated_at": "2025-05-27T02:49:40.945206",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 14,
+        "fields": {
+            "price": "168.62",
+            "quantity": 2,
+            "product": 29,
+            "cart": 3,
+            "created_at": "2025-06-27T08:31:22.025844",
+            "updated_at": "2025-06-07T21:10:10.061148",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 15,
+        "fields": {
+            "price": "183.15",
+            "quantity": 3,
+            "product": 33,
+            "cart": 3,
+            "created_at": "2025-06-26T22:38:02.820930",
+            "updated_at": "2025-07-08T14:33:17.909368",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 16,
+        "fields": {
+            "price": "170.50",
+            "quantity": 2,
+            "product": 39,
+            "cart": 3,
+            "created_at": "2025-05-14T17:17:08.060020",
+            "updated_at": "2025-04-24T13:14:11.640264",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 17,
+        "fields": {
+            "price": "160.04",
+            "quantity": 1,
+            "product": 4,
+            "cart": 3,
+            "created_at": "2025-06-08T02:07:45.313262",
+            "updated_at": "2025-07-22T09:39:02.452644",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 18,
+        "fields": {
+            "price": "208.38",
+            "quantity": 3,
+            "product": 16,
+            "cart": 3,
+            "created_at": "2025-04-23T02:50:56.986610",
+            "updated_at": "2025-05-24T18:43:49.923028",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 3,
+        "fields": {
+            "total_price": "2430.39",
+            "user": 7,
+            "created_at": "2025-02-11T13:33:33.316857",
+            "updated_at": "2025-03-02T07:29:43.509773",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 19,
+        "fields": {
+            "price": "159.73",
+            "quantity": 3,
+            "product": 13,
+            "cart": 4,
+            "created_at": "2025-06-29T10:30:33.002718",
+            "updated_at": "2025-06-24T18:00:16.012363",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 20,
+        "fields": {
+            "price": "216.79",
+            "quantity": 1,
+            "product": 34,
+            "cart": 4,
+            "created_at": "2025-03-28T01:59:13.613686",
+            "updated_at": "2025-07-02T00:32:38.626233",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 21,
+        "fields": {
+            "price": "101.78",
+            "quantity": 1,
+            "product": 37,
+            "cart": 4,
+            "created_at": "2025-03-14T17:32:31.574006",
+            "updated_at": "2025-07-12T08:56:16.117244",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 22,
+        "fields": {
+            "price": "190.17",
+            "quantity": 1,
+            "product": 26,
+            "cart": 4,
+            "created_at": "2025-01-17T13:37:40.270766",
+            "updated_at": "2025-01-16T22:52:15.441879",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 23,
+        "fields": {
+            "price": "220.13",
+            "quantity": 1,
+            "product": 14,
+            "cart": 4,
+            "created_at": "2025-04-05T22:09:38.302546",
+            "updated_at": "2025-03-04T23:41:37.486496",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 24,
+        "fields": {
+            "price": "103.64",
+            "quantity": 1,
+            "product": 15,
+            "cart": 4,
+            "created_at": "2025-03-20T18:44:20.577998",
+            "updated_at": "2025-01-10T22:56:16.330344",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 4,
+        "fields": {
+            "total_price": "1311.70",
+            "user": 3,
+            "created_at": "2025-05-04T17:52:47.068810",
+            "updated_at": "2025-06-13T21:46:56.704259",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 25,
+        "fields": {
+            "price": "50.98",
+            "quantity": 3,
+            "product": 9,
+            "cart": 5,
+            "created_at": "2025-05-28T05:47:29.446907",
+            "updated_at": "2025-03-01T22:52:13.478991",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 26,
+        "fields": {
+            "price": "106.71",
+            "quantity": 2,
+            "product": 10,
+            "cart": 5,
+            "created_at": "2025-05-27T02:51:50.167723",
+            "updated_at": "2025-04-01T11:52:38.616031",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 27,
+        "fields": {
+            "price": "253.96",
+            "quantity": 3,
+            "product": 20,
+            "cart": 5,
+            "created_at": "2025-07-10T15:08:51.098228",
+            "updated_at": "2025-01-26T11:04:08.221618",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 28,
+        "fields": {
+            "price": "180.53",
+            "quantity": 2,
+            "product": 4,
+            "cart": 5,
+            "created_at": "2025-04-01T14:41:25.201464",
+            "updated_at": "2025-04-03T01:56:42.761916",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 29,
+        "fields": {
+            "price": "99.80",
+            "quantity": 1,
+            "product": 25,
+            "cart": 5,
+            "created_at": "2025-02-08T07:54:07.112808",
+            "updated_at": "2025-03-02T18:42:31.285635",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 30,
+        "fields": {
+            "price": "90.76",
+            "quantity": 3,
+            "product": 28,
+            "cart": 5,
+            "created_at": "2025-01-15T13:22:31.070405",
+            "updated_at": "2025-07-02T08:00:19.812591",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 5,
+        "fields": {
+            "total_price": "1861.38",
+            "user": 5,
+            "created_at": "2025-01-18T07:20:22.394012",
+            "updated_at": "2025-02-24T07:55:43.499476",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 31,
+        "fields": {
+            "price": "126.31",
+            "quantity": 2,
+            "product": 13,
+            "cart": 6,
+            "created_at": "2025-01-28T20:52:08.961972",
+            "updated_at": "2025-03-15T15:30:45.573634",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 32,
+        "fields": {
+            "price": "237.90",
+            "quantity": 2,
+            "product": 4,
+            "cart": 6,
+            "created_at": "2025-01-24T05:53:54.485536",
+            "updated_at": "2025-05-07T20:24:12.568395",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 33,
+        "fields": {
+            "price": "182.07",
+            "quantity": 2,
+            "product": 11,
+            "cart": 6,
+            "created_at": "2025-03-03T07:13:02.505019",
+            "updated_at": "2025-07-02T01:44:09.822307",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 34,
+        "fields": {
+            "price": "273.76",
+            "quantity": 3,
+            "product": 35,
+            "cart": 6,
+            "created_at": "2025-01-20T19:03:01.025799",
+            "updated_at": "2025-06-29T23:21:38.145196",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 35,
+        "fields": {
+            "price": "256.97",
+            "quantity": 1,
+            "product": 40,
+            "cart": 6,
+            "created_at": "2025-03-25T22:49:56.122723",
+            "updated_at": "2025-02-20T00:40:11.746242",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 36,
+        "fields": {
+            "price": "70.40",
+            "quantity": 2,
+            "product": 24,
+            "cart": 6,
+            "created_at": "2025-06-18T02:34:42.905434",
+            "updated_at": "2025-05-04T13:34:37.219377",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 6,
+        "fields": {
+            "total_price": "2311.61",
+            "user": 3,
+            "created_at": "2025-05-04T01:57:43.383055",
+            "updated_at": "2025-02-13T04:32:52.324879",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 37,
+        "fields": {
+            "price": "292.91",
+            "quantity": 2,
+            "product": 21,
+            "cart": 7,
+            "created_at": "2025-06-05T16:10:38.101334",
+            "updated_at": "2025-06-30T09:54:07.368956",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 38,
+        "fields": {
+            "price": "103.92",
+            "quantity": 1,
+            "product": 37,
+            "cart": 7,
+            "created_at": "2025-01-10T08:10:18.022750",
+            "updated_at": "2025-01-13T10:31:44.907662",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 39,
+        "fields": {
+            "price": "218.65",
+            "quantity": 3,
+            "product": 26,
+            "cart": 7,
+            "created_at": "2025-06-11T00:37:53.183263",
+            "updated_at": "2025-01-10T04:01:51.477248",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 40,
+        "fields": {
+            "price": "166.66",
+            "quantity": 3,
+            "product": 30,
+            "cart": 7,
+            "created_at": "2025-04-04T23:55:07.188980",
+            "updated_at": "2025-04-06T21:41:47.610960",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 41,
+        "fields": {
+            "price": "203.93",
+            "quantity": 1,
+            "product": 10,
+            "cart": 7,
+            "created_at": "2025-02-02T17:03:03.806738",
+            "updated_at": "2025-02-20T15:41:48.813655",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 42,
+        "fields": {
+            "price": "163.68",
+            "quantity": 3,
+            "product": 9,
+            "cart": 7,
+            "created_at": "2025-02-23T17:21:11.921550",
+            "updated_at": "2025-06-20T20:17:45.395756",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 7,
+        "fields": {
+            "total_price": "2540.64",
+            "user": 4,
+            "created_at": "2025-06-16T03:56:05.856702",
+            "updated_at": "2025-01-20T09:33:36.834328",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 43,
+        "fields": {
+            "price": "173.81",
+            "quantity": 2,
+            "product": 31,
+            "cart": 8,
+            "created_at": "2025-04-02T11:10:26.903771",
+            "updated_at": "2025-05-18T10:41:43.863584",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 44,
+        "fields": {
+            "price": "161.34",
+            "quantity": 3,
+            "product": 3,
+            "cart": 8,
+            "created_at": "2025-03-09T15:59:30.981941",
+            "updated_at": "2025-05-16T20:38:51.379876",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 45,
+        "fields": {
+            "price": "56.62",
+            "quantity": 3,
+            "product": 1,
+            "cart": 8,
+            "created_at": "2025-06-26T23:40:19.832577",
+            "updated_at": "2025-05-23T23:23:05.445219",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 46,
+        "fields": {
+            "price": "219.65",
+            "quantity": 3,
+            "product": 35,
+            "cart": 8,
+            "created_at": "2025-02-04T02:56:52.510108",
+            "updated_at": "2025-01-12T15:00:38.372210",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 47,
+        "fields": {
+            "price": "12.54",
+            "quantity": 3,
+            "product": 25,
+            "cart": 8,
+            "created_at": "2025-04-08T17:47:10.181213",
+            "updated_at": "2025-06-01T17:47:26.489181",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 48,
+        "fields": {
+            "price": "65.26",
+            "quantity": 3,
+            "product": 27,
+            "cart": 8,
+            "created_at": "2025-02-27T06:36:52.003387",
+            "updated_at": "2025-03-22T08:53:06.470935",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 8,
+        "fields": {
+            "total_price": "1893.85",
+            "user": 3,
+            "created_at": "2025-05-28T12:46:48.934234",
+            "updated_at": "2025-02-05T09:15:26.929083",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 49,
+        "fields": {
+            "price": "294.30",
+            "quantity": 3,
+            "product": 23,
+            "cart": 9,
+            "created_at": "2025-07-23T09:19:34.452852",
+            "updated_at": "2025-06-28T08:14:52.129288",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 50,
+        "fields": {
+            "price": "52.04",
+            "quantity": 2,
+            "product": 25,
+            "cart": 9,
+            "created_at": "2025-07-16T20:23:20.751417",
+            "updated_at": "2025-07-03T02:57:40.526279",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 51,
+        "fields": {
+            "price": "37.47",
+            "quantity": 1,
+            "product": 40,
+            "cart": 9,
+            "created_at": "2025-06-06T15:23:53.717068",
+            "updated_at": "2025-07-11T11:59:03.726895",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 52,
+        "fields": {
+            "price": "57.21",
+            "quantity": 1,
+            "product": 34,
+            "cart": 9,
+            "created_at": "2025-07-07T15:12:41.191196",
+            "updated_at": "2025-06-20T07:34:16.740374",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 53,
+        "fields": {
+            "price": "228.47",
+            "quantity": 3,
+            "product": 38,
+            "cart": 9,
+            "created_at": "2025-05-05T15:02:54.178338",
+            "updated_at": "2025-04-12T16:33:23.758076",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 54,
+        "fields": {
+            "price": "52.22",
+            "quantity": 1,
+            "product": 19,
+            "cart": 9,
+            "created_at": "2025-01-05T09:55:28.701253",
+            "updated_at": "2025-05-03T00:55:28.606488",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 9,
+        "fields": {
+            "total_price": "1819.29",
+            "user": 2,
+            "created_at": "2025-07-15T08:13:57.824418",
+            "updated_at": "2025-04-23T09:22:19.965500",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 55,
+        "fields": {
+            "price": "134.74",
+            "quantity": 3,
+            "product": 33,
+            "cart": 10,
+            "created_at": "2025-03-22T18:51:52.432837",
+            "updated_at": "2025-03-05T10:30:16.829873",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 56,
+        "fields": {
+            "price": "84.48",
+            "quantity": 3,
+            "product": 18,
+            "cart": 10,
+            "created_at": "2025-03-31T02:38:20.201452",
+            "updated_at": "2025-06-25T09:57:51.213382",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 57,
+        "fields": {
+            "price": "171.80",
+            "quantity": 3,
+            "product": 8,
+            "cart": 10,
+            "created_at": "2025-06-25T10:00:23.564313",
+            "updated_at": "2025-07-14T16:17:45.420491",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 58,
+        "fields": {
+            "price": "29.03",
+            "quantity": 3,
+            "product": 5,
+            "cart": 10,
+            "created_at": "2025-02-05T08:29:07.532369",
+            "updated_at": "2025-02-12T12:35:52.245846",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 59,
+        "fields": {
+            "price": "235.01",
+            "quantity": 3,
+            "product": 22,
+            "cart": 10,
+            "created_at": "2025-02-05T13:11:30.631224",
+            "updated_at": "2025-05-14T11:08:03.864079",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cartitem",
+        "pk": 60,
+        "fields": {
+            "price": "245.55",
+            "quantity": 2,
+            "product": 3,
+            "cart": 10,
+            "created_at": "2025-07-09T11:14:01.546683",
+            "updated_at": "2025-06-13T12:02:13.958509",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.cart",
+        "pk": 10,
+        "fields": {
+            "total_price": "2456.28",
+            "user": 6,
+            "created_at": "2025-03-03T09:38:24.175578",
+            "updated_at": "2025-01-26T01:42:24.701674",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 1,
+        "fields": {
+            "price": "215.86",
+            "quantity": 2,
+            "successful": false,
+            "order": 1,
+            "product": 31,
+            "created_at": "2025-03-04T18:53:25.148806",
+            "updated_at": "2025-02-01T21:52:07.953933",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 2,
+        "fields": {
+            "price": "158.81",
+            "quantity": 3,
+            "successful": false,
+            "order": 1,
+            "product": 7,
+            "created_at": "2025-02-17T00:07:40.256264",
+            "updated_at": "2025-01-11T23:39:01.464400",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 3,
+        "fields": {
+            "price": "287.90",
+            "quantity": 3,
+            "successful": true,
+            "order": 1,
+            "product": 37,
+            "created_at": "2025-02-10T09:40:46.286946",
+            "updated_at": "2025-02-18T11:58:35.377363",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 4,
+        "fields": {
+            "price": "18.54",
+            "quantity": 4,
+            "successful": false,
+            "order": 1,
+            "product": 5,
+            "created_at": "2025-01-25T05:19:19.693061",
+            "updated_at": "2025-01-15T15:13:24.062954",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 5,
+        "fields": {
+            "price": "437.71",
+            "quantity": 4,
+            "successful": true,
+            "order": 1,
+            "product": 40,
+            "created_at": "2025-05-15T02:54:10.460071",
+            "updated_at": "2025-02-18T04:33:51.592818",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 6,
+        "fields": {
+            "price": "350.78",
+            "quantity": 3,
+            "successful": true,
+            "order": 1,
+            "product": 29,
+            "created_at": "2025-04-03T07:33:41.142860",
+            "updated_at": "2025-04-30T22:28:15.063134",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 1,
+        "fields": {
+            "total_price": "4649.19",
+            "user": 9,
+            "created_at": "2025-01-17T05:55:27.776238",
+            "updated_at": "2025-03-16T14:47:43.055405",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 1,
+        "fields": {
+            "amount": "4649.19",
+            "user": 9,
+            "order": 1,
+            "successful": true,
+            "created_at": "2025-06-16T22:12:09.683136",
+            "updated_at": "2025-04-15T03:20:22.294651",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 7,
+        "fields": {
+            "price": "186.64",
+            "quantity": 4,
+            "successful": true,
+            "order": 2,
+            "product": 7,
+            "created_at": "2025-06-09T22:48:14.892089",
+            "updated_at": "2025-02-12T16:30:09.641006",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 8,
+        "fields": {
+            "price": "50.46",
+            "quantity": 1,
+            "successful": true,
+            "order": 2,
+            "product": 36,
+            "created_at": "2025-07-08T12:36:33.077560",
+            "updated_at": "2025-06-05T18:54:06.305906",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 9,
+        "fields": {
+            "price": "145.37",
+            "quantity": 4,
+            "successful": false,
+            "order": 2,
+            "product": 36,
+            "created_at": "2025-01-11T14:25:24.805113",
+            "updated_at": "2025-03-21T17:32:25.392258",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 10,
+        "fields": {
+            "price": "25.22",
+            "quantity": 1,
+            "successful": true,
+            "order": 2,
+            "product": 32,
+            "created_at": "2025-02-24T14:02:25.956366",
+            "updated_at": "2025-05-01T05:31:21.175048",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 11,
+        "fields": {
+            "price": "98.51",
+            "quantity": 4,
+            "successful": false,
+            "order": 2,
+            "product": 13,
+            "created_at": "2025-07-18T10:14:38.065165",
+            "updated_at": "2025-03-07T17:25:59.335505",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 12,
+        "fields": {
+            "price": "193.85",
+            "quantity": 4,
+            "successful": true,
+            "order": 2,
+            "product": 20,
+            "created_at": "2025-06-18T10:30:35.508253",
+            "updated_at": "2025-01-25T15:33:22.785393",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 2,
+        "fields": {
+            "total_price": "2573.16",
+            "user": 8,
+            "created_at": "2025-03-05T21:22:13.867320",
+            "updated_at": "2025-05-04T08:30:50.181356",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 2,
+        "fields": {
+            "amount": "2573.16",
+            "user": 8,
+            "order": 2,
+            "successful": true,
+            "created_at": "2025-02-18T17:55:47.913975",
+            "updated_at": "2025-02-18T10:43:27.998733",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 13,
+        "fields": {
+            "price": "109.29",
+            "quantity": 3,
+            "successful": true,
+            "order": 3,
+            "product": 23,
+            "created_at": "2025-07-09T11:27:45.965167",
+            "updated_at": "2025-05-27T20:09:56.607921",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 14,
+        "fields": {
+            "price": "344.09",
+            "quantity": 1,
+            "successful": true,
+            "order": 3,
+            "product": 39,
+            "created_at": "2025-03-26T13:58:16.596657",
+            "updated_at": "2025-02-13T07:18:44.677980",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 15,
+        "fields": {
+            "price": "36.51",
+            "quantity": 4,
+            "successful": true,
+            "order": 3,
+            "product": 5,
+            "created_at": "2025-06-05T07:58:08.111431",
+            "updated_at": "2025-05-08T11:55:01.118603",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 16,
+        "fields": {
+            "price": "457.50",
+            "quantity": 3,
+            "successful": true,
+            "order": 3,
+            "product": 23,
+            "created_at": "2025-03-29T05:46:12.039492",
+            "updated_at": "2025-06-01T11:39:36.439262",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 17,
+        "fields": {
+            "price": "243.39",
+            "quantity": 4,
+            "successful": false,
+            "order": 3,
+            "product": 12,
+            "created_at": "2025-06-04T16:34:50.106274",
+            "updated_at": "2025-03-09T17:03:47.022538",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 18,
+        "fields": {
+            "price": "175.17",
+            "quantity": 4,
+            "successful": false,
+            "order": 3,
+            "product": 4,
+            "created_at": "2025-04-02T22:33:27.514290",
+            "updated_at": "2025-06-21T06:37:19.872960",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 3,
+        "fields": {
+            "total_price": "3864.74",
+            "user": 10,
+            "created_at": "2025-01-24T17:38:03.313096",
+            "updated_at": "2025-06-17T22:20:01.252439",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 3,
+        "fields": {
+            "amount": "3864.74",
+            "user": 10,
+            "order": 3,
+            "successful": true,
+            "created_at": "2025-03-24T23:01:59.112534",
+            "updated_at": "2025-02-17T12:23:04.468368",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 19,
+        "fields": {
+            "price": "467.72",
+            "quantity": 3,
+            "successful": true,
+            "order": 4,
+            "product": 13,
+            "created_at": "2025-04-11T15:54:06.984088",
+            "updated_at": "2025-01-10T16:26:09.385491",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 20,
+        "fields": {
+            "price": "150.89",
+            "quantity": 1,
+            "successful": true,
+            "order": 4,
+            "product": 29,
+            "created_at": "2025-03-24T16:39:59.011567",
+            "updated_at": "2025-02-19T07:40:54.087101",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 21,
+        "fields": {
+            "price": "198.01",
+            "quantity": 2,
+            "successful": false,
+            "order": 4,
+            "product": 7,
+            "created_at": "2025-02-12T02:34:02.948670",
+            "updated_at": "2025-04-03T16:09:06.630734",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 22,
+        "fields": {
+            "price": "488.28",
+            "quantity": 3,
+            "successful": true,
+            "order": 4,
+            "product": 20,
+            "created_at": "2025-01-19T17:48:50.570031",
+            "updated_at": "2025-03-07T00:56:26.448235",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 23,
+        "fields": {
+            "price": "80.61",
+            "quantity": 3,
+            "successful": false,
+            "order": 4,
+            "product": 21,
+            "created_at": "2025-01-08T00:32:37.844384",
+            "updated_at": "2025-04-19T09:01:50.675219",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 24,
+        "fields": {
+            "price": "183.81",
+            "quantity": 1,
+            "successful": true,
+            "order": 4,
+            "product": 2,
+            "created_at": "2025-06-18T03:45:05.195215",
+            "updated_at": "2025-07-09T21:36:32.829178",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 4,
+        "fields": {
+            "total_price": "3840.55",
+            "user": 1,
+            "created_at": "2025-07-05T16:01:02.398022",
+            "updated_at": "2025-01-23T19:11:58.425941",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 4,
+        "fields": {
+            "amount": "3840.55",
+            "user": 1,
+            "order": 4,
+            "successful": true,
+            "created_at": "2025-02-28T01:33:08.029258",
+            "updated_at": "2025-03-11T10:37:27.830944",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 25,
+        "fields": {
+            "price": "303.10",
+            "quantity": 1,
+            "successful": false,
+            "order": 5,
+            "product": 6,
+            "created_at": "2025-03-11T02:20:00.666562",
+            "updated_at": "2025-01-27T04:30:07.257705",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 26,
+        "fields": {
+            "price": "364.77",
+            "quantity": 1,
+            "successful": false,
+            "order": 5,
+            "product": 10,
+            "created_at": "2025-03-31T19:14:13.379678",
+            "updated_at": "2025-02-10T17:00:23.962261",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 27,
+        "fields": {
+            "price": "208.45",
+            "quantity": 1,
+            "successful": true,
+            "order": 5,
+            "product": 33,
+            "created_at": "2025-01-09T10:50:03.539100",
+            "updated_at": "2025-05-08T15:08:38.713773",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 28,
+        "fields": {
+            "price": "340.62",
+            "quantity": 2,
+            "successful": true,
+            "order": 5,
+            "product": 24,
+            "created_at": "2025-02-28T05:51:07.773973",
+            "updated_at": "2025-06-17T09:22:13.137692",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 29,
+        "fields": {
+            "price": "125.60",
+            "quantity": 4,
+            "successful": true,
+            "order": 5,
+            "product": 12,
+            "created_at": "2025-03-20T07:20:11.949368",
+            "updated_at": "2025-02-17T10:17:14.258056",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 30,
+        "fields": {
+            "price": "264.79",
+            "quantity": 1,
+            "successful": true,
+            "order": 5,
+            "product": 29,
+            "created_at": "2025-03-30T09:54:24.190767",
+            "updated_at": "2025-01-07T14:22:07.111687",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 5,
+        "fields": {
+            "total_price": "2324.75",
+            "user": 5,
+            "created_at": "2025-03-01T17:22:51.123180",
+            "updated_at": "2025-02-03T21:04:31.701305",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 5,
+        "fields": {
+            "amount": "2324.75",
+            "user": 5,
+            "order": 5,
+            "successful": true,
+            "created_at": "2025-06-26T00:29:11.925912",
+            "updated_at": "2025-05-12T02:00:16.974236",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 31,
+        "fields": {
+            "price": "44.27",
+            "quantity": 3,
+            "successful": true,
+            "order": 6,
+            "product": 1,
+            "created_at": "2025-05-12T17:23:35.159411",
+            "updated_at": "2025-01-18T12:55:46.317373",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 32,
+        "fields": {
+            "price": "332.21",
+            "quantity": 3,
+            "successful": false,
+            "order": 6,
+            "product": 32,
+            "created_at": "2025-01-10T00:00:41.606802",
+            "updated_at": "2025-06-21T10:20:17.114304",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 33,
+        "fields": {
+            "price": "88.10",
+            "quantity": 2,
+            "successful": false,
+            "order": 6,
+            "product": 27,
+            "created_at": "2025-07-09T19:12:06.103826",
+            "updated_at": "2025-07-09T06:27:07.180437",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 34,
+        "fields": {
+            "price": "466.56",
+            "quantity": 2,
+            "successful": true,
+            "order": 6,
+            "product": 24,
+            "created_at": "2025-04-27T22:35:27.086849",
+            "updated_at": "2025-01-30T00:44:31.421315",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 35,
+        "fields": {
+            "price": "197.74",
+            "quantity": 1,
+            "successful": true,
+            "order": 6,
+            "product": 11,
+            "created_at": "2025-04-08T12:18:36.229360",
+            "updated_at": "2025-03-09T13:33:36.664080",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 36,
+        "fields": {
+            "price": "57.49",
+            "quantity": 3,
+            "successful": false,
+            "order": 6,
+            "product": 22,
+            "created_at": "2025-07-06T04:58:12.970306",
+            "updated_at": "2025-05-10T17:49:11.072829",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 6,
+        "fields": {
+            "total_price": "2608.97",
+            "user": 9,
+            "created_at": "2025-05-20T19:42:27.311964",
+            "updated_at": "2025-03-06T01:49:53.422626",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 6,
+        "fields": {
+            "amount": "2608.97",
+            "user": 9,
+            "order": 6,
+            "successful": true,
+            "created_at": "2025-07-04T14:05:12.151302",
+            "updated_at": "2025-06-04T11:24:20.872028",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 37,
+        "fields": {
+            "price": "224.37",
+            "quantity": 2,
+            "successful": true,
+            "order": 7,
+            "product": 36,
+            "created_at": "2025-07-02T16:33:02.702511",
+            "updated_at": "2025-02-07T07:11:59.746752",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 38,
+        "fields": {
+            "price": "82.54",
+            "quantity": 1,
+            "successful": true,
+            "order": 7,
+            "product": 10,
+            "created_at": "2025-03-13T19:58:16.118317",
+            "updated_at": "2025-07-14T11:25:30.367902",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 39,
+        "fields": {
+            "price": "456.33",
+            "quantity": 2,
+            "successful": true,
+            "order": 7,
+            "product": 36,
+            "created_at": "2025-03-05T18:49:35.493963",
+            "updated_at": "2025-04-13T18:52:48.547315",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 40,
+        "fields": {
+            "price": "113.86",
+            "quantity": 4,
+            "successful": false,
+            "order": 7,
+            "product": 16,
+            "created_at": "2025-05-15T09:51:29.609060",
+            "updated_at": "2025-04-18T05:24:29.324024",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 41,
+        "fields": {
+            "price": "373.66",
+            "quantity": 3,
+            "successful": true,
+            "order": 7,
+            "product": 29,
+            "created_at": "2025-01-30T02:52:17.130936",
+            "updated_at": "2025-06-06T03:42:49.273377",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 42,
+        "fields": {
+            "price": "245.61",
+            "quantity": 3,
+            "successful": true,
+            "order": 7,
+            "product": 40,
+            "created_at": "2025-03-14T18:15:52.148634",
+            "updated_at": "2025-01-20T22:45:07.018521",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 7,
+        "fields": {
+            "total_price": "3757.19",
+            "user": 1,
+            "created_at": "2025-03-14T21:30:19.954179",
+            "updated_at": "2025-05-31T19:46:02.415609",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 7,
+        "fields": {
+            "amount": "3757.19",
+            "user": 1,
+            "order": 7,
+            "successful": true,
+            "created_at": "2025-07-16T17:45:38.688673",
+            "updated_at": "2025-03-20T23:17:19.034212",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 43,
+        "fields": {
+            "price": "436.71",
+            "quantity": 1,
+            "successful": false,
+            "order": 8,
+            "product": 26,
+            "created_at": "2025-03-05T04:17:11.228711",
+            "updated_at": "2025-05-11T23:44:44.043946",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 44,
+        "fields": {
+            "price": "364.21",
+            "quantity": 4,
+            "successful": true,
+            "order": 8,
+            "product": 37,
+            "created_at": "2025-05-24T04:12:12.362555",
+            "updated_at": "2025-01-01T07:17:59.891574",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 45,
+        "fields": {
+            "price": "155.40",
+            "quantity": 2,
+            "successful": false,
+            "order": 8,
+            "product": 15,
+            "created_at": "2025-04-08T00:32:30.425960",
+            "updated_at": "2025-02-09T05:48:56.456666",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 46,
+        "fields": {
+            "price": "344.88",
+            "quantity": 3,
+            "successful": false,
+            "order": 8,
+            "product": 37,
+            "created_at": "2025-01-19T03:25:58.376749",
+            "updated_at": "2025-05-29T05:56:06.038178",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 47,
+        "fields": {
+            "price": "340.44",
+            "quantity": 3,
+            "successful": false,
+            "order": 8,
+            "product": 9,
+            "created_at": "2025-06-23T07:51:38.307213",
+            "updated_at": "2025-04-17T05:44:09.159347",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 48,
+        "fields": {
+            "price": "75.15",
+            "quantity": 3,
+            "successful": false,
+            "order": 8,
+            "product": 26,
+            "created_at": "2025-07-01T03:07:47.257639",
+            "updated_at": "2025-05-12T10:21:53.433392",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 8,
+        "fields": {
+            "total_price": "4485.76",
+            "user": 1,
+            "created_at": "2025-03-08T15:54:52.971316",
+            "updated_at": "2025-06-12T22:18:12.465331",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 8,
+        "fields": {
+            "amount": "4485.76",
+            "user": 1,
+            "order": 8,
+            "successful": true,
+            "created_at": "2025-01-10T05:59:24.418745",
+            "updated_at": "2025-02-08T17:07:03.066060",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 49,
+        "fields": {
+            "price": "272.60",
+            "quantity": 3,
+            "successful": false,
+            "order": 9,
+            "product": 12,
+            "created_at": "2025-06-08T00:40:42.352992",
+            "updated_at": "2025-03-10T18:42:07.712633",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 50,
+        "fields": {
+            "price": "254.86",
+            "quantity": 4,
+            "successful": false,
+            "order": 9,
+            "product": 17,
+            "created_at": "2025-03-23T01:09:51.990941",
+            "updated_at": "2025-02-13T13:23:56.768873",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 51,
+        "fields": {
+            "price": "93.52",
+            "quantity": 4,
+            "successful": true,
+            "order": 9,
+            "product": 22,
+            "created_at": "2025-03-07T23:10:06.786222",
+            "updated_at": "2025-01-28T07:34:03.552718",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 52,
+        "fields": {
+            "price": "117.14",
+            "quantity": 4,
+            "successful": true,
+            "order": 9,
+            "product": 33,
+            "created_at": "2025-04-02T14:20:48.695967",
+            "updated_at": "2025-06-02T10:10:31.414171",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 53,
+        "fields": {
+            "price": "43.85",
+            "quantity": 1,
+            "successful": false,
+            "order": 9,
+            "product": 27,
+            "created_at": "2025-05-31T05:46:24.829244",
+            "updated_at": "2025-01-19T23:45:10.405983",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 54,
+        "fields": {
+            "price": "368.50",
+            "quantity": 4,
+            "successful": true,
+            "order": 9,
+            "product": 28,
+            "created_at": "2025-06-11T04:19:58.692332",
+            "updated_at": "2025-07-20T18:00:13.438312",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 9,
+        "fields": {
+            "total_price": "4197.73",
+            "user": 6,
+            "created_at": "2025-03-22T09:47:53.774962",
+            "updated_at": "2025-04-06T04:27:14.403495",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 9,
+        "fields": {
+            "amount": "4197.73",
+            "user": 6,
+            "order": 9,
+            "successful": true,
+            "created_at": "2025-06-03T00:55:39.163437",
+            "updated_at": "2025-06-11T09:00:03.603109",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 55,
+        "fields": {
+            "price": "172.90",
+            "quantity": 2,
+            "successful": true,
+            "order": 10,
+            "product": 15,
+            "created_at": "2025-05-01T14:14:23.624758",
+            "updated_at": "2025-04-25T06:22:17.996142",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 56,
+        "fields": {
+            "price": "157.80",
+            "quantity": 4,
+            "successful": true,
+            "order": 10,
+            "product": 9,
+            "created_at": "2025-06-27T02:19:47.207573",
+            "updated_at": "2025-01-26T14:46:57.950696",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 57,
+        "fields": {
+            "price": "433.72",
+            "quantity": 3,
+            "successful": false,
+            "order": 10,
+            "product": 16,
+            "created_at": "2025-05-03T23:06:43.537069",
+            "updated_at": "2025-06-03T11:45:17.080207",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 58,
+        "fields": {
+            "price": "412.57",
+            "quantity": 3,
+            "successful": false,
+            "order": 10,
+            "product": 22,
+            "created_at": "2025-06-08T23:36:45.792238",
+            "updated_at": "2025-02-04T12:44:39.119158",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 59,
+        "fields": {
+            "price": "345.75",
+            "quantity": 3,
+            "successful": true,
+            "order": 10,
+            "product": 20,
+            "created_at": "2025-05-15T12:48:52.193186",
+            "updated_at": "2025-05-25T08:24:06.662390",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.orderitem",
+        "pk": 60,
+        "fields": {
+            "price": "214.87",
+            "quantity": 3,
+            "successful": false,
+            "order": 10,
+            "product": 24,
+            "created_at": "2025-07-20T01:16:16.382890",
+            "updated_at": "2025-06-06T08:28:52.187160",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 10,
+        "fields": {
+            "total_price": "5197.73",
+            "user": 10,
+            "created_at": "2025-05-13T23:29:52.569915",
+            "updated_at": "2025-03-28T13:13:36.341973",
+            "deleted": false
+        }
+    },
+    {
+        "model": "shop.payment",
+        "pk": 10,
+        "fields": {
+            "amount": "5197.73",
+            "user": 10,
+            "order": 10,
+            "successful": true,
+            "created_at": "2025-03-02T03:34:36.717000",
+            "updated_at": "2025-03-30T15:51:10.862501",
+            "deleted": false
+        }
+    }
+]
